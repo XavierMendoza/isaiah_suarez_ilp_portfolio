@@ -33,4 +33,4 @@ Vercel: Vite framework, build command `npm run build`, output directory `dist`. 
 
 Typography uses Google Fonts (DM Sans and Manrope) with system fallbacks. All decorative artwork is CSS; no third-party photography is used.
 
-See `docs/RUBRIC_CHECKLIST.md` and `docs/IMPLEMENTATION_REPORT.md` for review readiness and evidence gaps.
+See `docs/RUBRIC_CHECKLIST.md` and `docs/FINAL_COMPLETION_REPORT.md` for the final audit, student-verified reflections, and deferred capstone exceptions.

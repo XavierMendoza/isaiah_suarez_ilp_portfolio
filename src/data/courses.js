@@ -1,4 +1,4 @@
-// Catalog descriptions supplied by the student. Evidence must represent authentic work.
+// Student-verified reflections; supplied catalog descriptions preserved.
 export const courses = [
   {
     "code": "CST 300",
@@ -12,8 +12,16 @@ export const courses = [
       "Source selection",
       "Professional communication"
     ],
-    "evidence": [],
-    "evidenceStatus": "pending",
+    "evidence": [
+      {
+        "id": "cst-300-reflection",
+        "type": "reflection",
+        "title": "Coursework & Learning Reflection",
+        "text": "Clear explanations matter to me because a technical idea is useful only when someone else can understand it. My learning in CST 300 centers on critical reading, academic writing, and the choices involved in professional communication. Evaluating a source means considering its evidence, purpose, and relevance instead of accepting a confident statement at face value. That distinction provides a useful foundation for research in computing.\n\nWhen reviewing my writing, I look for a clear claim, supporting reasoning, and language suited to the intended audience. An explanation for another programmer can assume different background knowledge than an explanation for a client. Revising for those differences connects academic writing with technical documentation and workplace communication. These connections help me communicate technical information responsibly.",
+        "contentStatus": "student-verified"
+      }
+    ],
+    "evidenceStatus": "complete",
     "isCapstone": false
   },
   {
@@ -29,8 +37,16 @@ export const courses = [
       "Requirements analysis",
       "User interfaces"
     ],
-    "evidence": [],
-    "evidenceStatus": "pending",
+    "evidence": [
+      {
+        "id": "cst-338-reflection",
+        "type": "reflection",
+        "title": "Coursework & Learning Reflection",
+        "text": "I approach software design as a question of responsibility: what should each part of a program know, and what should it do? Classes and objects offer a way to organize those responsibilities, while encapsulation limits how other code depends on internal details. In reflecting on CST 338, I connect these concepts to requirements analysis and the architectural decisions that shape a larger system.\n\nMy coursework reflection examines how requirements guide code organization and how changes affect maintainability. The software development life cycle also gives me a framework for relating planning, implementation, and later revision. I focus on explaining why a design choice helps someone understand or modify software, rather than simply naming an object-oriented feature. The professional connection is making software understandable enough for future developers to extend with confidence.",
+        "contentStatus": "student-verified"
+      }
+    ],
+    "evidenceStatus": "complete",
     "isCapstone": false
   },
   {
@@ -46,8 +62,16 @@ export const courses = [
       "Transactions",
       "NoSQL"
     ],
-    "evidence": [],
-    "evidenceStatus": "pending",
+    "evidence": [
+      {
+        "id": "cst-363-reflection",
+        "type": "reflection",
+        "title": "Coursework & Learning Reflection",
+        "text": "The relationship between stored data and reliable application behavior is the focus of my CST 363 reflection. Relational schema design involves deciding what information belongs together and how separate records connect. Primary keys identify records, while foreign keys express relationships and help protect data integrity. These choices influence what SQL queries can retrieve and how consistently an application can update information.\n\nI consider how selecting, joining, and filtering data relate to the questions an application needs to answer. Database administration adds another perspective: a database must remain usable and dependable beyond its initial design. Transaction processing connects that responsibility to coordinated changes in shared data. Understanding these relationships supports my broader development as a programmer by helping me reason about persistence, consistency, and the consequences of database design decisions.",
+        "contentStatus": "student-verified"
+      }
+    ],
+    "evidenceStatus": "complete",
     "isCapstone": false
   },
   {
@@ -63,8 +87,16 @@ export const courses = [
       "Memory management",
       "Concurrency"
     ],
-    "evidence": [],
-    "evidenceStatus": "pending",
+    "evidence": [
+      {
+        "id": "cst-334-reflection",
+        "type": "reflection",
+        "title": "Coursework & Learning Reflection",
+        "text": "An operating system sits between a program's requests and the resources needed to fulfill them. That relationship gives me a useful starting point for reflecting on CST 334. Linux command-line tools and shell scripting concepts connect everyday system use with automation, while process management, memory management, and file systems explain responsibilities that applications often depend on indirectly.\n\nI connect these areas of learning by considering how these responsibilities interact. Concurrent processes can compete for shared resources, and memory or file access decisions can affect both correctness and performance. Thinking through those connections helps me move beyond viewing the operating system as a collection of commands. For professional development, I see value in being able to distinguish an application problem from an underlying system issue and explain how resource management influences software behavior in larger computing environments.",
+        "contentStatus": "student-verified"
+      }
+    ],
+    "evidenceStatus": "complete",
     "isCapstone": false
   },
   {
@@ -80,8 +112,16 @@ export const courses = [
       "LAN & WAN",
       "Networking labs"
     ],
-    "evidence": [],
-    "evidenceStatus": "pending",
+    "evidence": [
+      {
+        "id": "cst-311-reflection",
+        "type": "reflection",
+        "title": "Coursework & Learning Reflection",
+        "text": "How does information travel from one computer to another? That question guides my CST 311 reflection, following communication across local area networks and wide area networks. TCP/IP and other communication protocols establish rules that allow different systems to exchange information. Network architecture gives those exchanges a structure, connecting individual devices with the broader Internet.\n\nI examine the relationship between network performance and security: successful communication involves more than reaching a destination, because reliability, delay, and protection also matter. Separating the responsibilities of different protocols helps me explain where a communication problem might arise. This perspective connects networking to application development and technical troubleshooting. It gives me a way to reason about systems that depend on remote services without assuming every failure originates in the application itself.",
+        "contentStatus": "student-verified"
+      }
+    ],
+    "evidenceStatus": "complete",
     "isCapstone": false
   },
   {
@@ -97,8 +137,16 @@ export const courses = [
       "RESTful services",
       "Web APIs"
     ],
-    "evidence": [],
-    "evidenceStatus": "pending",
+    "evidence": [
+      {
+        "id": "cst-336-reflection",
+        "type": "reflection",
+        "title": "Coursework & Learning Reflection",
+        "text": "A dynamic web application requires several parts to cooperate, even when a visitor sees only one page. For CST 336, my reflection follows that cooperation from frontend interaction through client-server communication to backend processing. Responsive design concerns how an interface adapts to different screens; server-side programming and database connectivity address how information is processed and retained. Web APIs define another boundary through which applications exchange data.\n\nTracing a request helps me explain the responsibilities on either side of that boundary. The learning connection I emphasize is how decisions in one layer affect the others. A usable interface depends on meaningful responses, and backend behavior must support what the interface promises. Reasoning across these layers helps me approach web development with greater attention to consistency and maintainability.",
+        "contentStatus": "student-verified"
+      }
+    ],
+    "evidenceStatus": "complete",
     "isCapstone": false
   },
   {
@@ -114,8 +162,16 @@ export const courses = [
       "Dynamic programming",
       "Graph algorithms"
     ],
-    "evidence": [],
-    "evidenceStatus": "pending",
+    "evidence": [
+      {
+        "id": "cst-370-reflection",
+        "type": "reflection",
+        "title": "Coursework & Learning Reflection",
+        "text": "Choosing an algorithm means asking how a solution behaves as the problem grows. In my CST 370 reflection, I emphasize that reasoning rather than equate a working answer with an efficient one. Time complexity provides a language for comparing approaches, while data structures such as trees and graphs shape how information can be represented, searched, and processed. Sorting and searching offer useful contexts for examining these tradeoffs.\n\nI compare divide-and-conquer, dynamic programming, and greedy algorithms by considering the conditions that make each strategy appropriate. Dividing a problem, reusing overlapping results, and making locally favorable choices are different decisions with different requirements. Connecting efficiency with problem structure strengthens my ability to justify technical choices and recognize when an approach that works on small inputs may become impractical at a larger scale.",
+        "contentStatus": "student-verified"
+      }
+    ],
+    "evidenceStatus": "complete",
     "isCapstone": false
   },
   {
@@ -131,8 +187,16 @@ export const courses = [
       "Community service",
       "Critical reflection"
     ],
-    "evidence": [],
-    "evidenceStatus": "pending",
+    "evidence": [
+      {
+        "id": "cst-462s-reflection",
+        "type": "reflection",
+        "title": "Coursework & Learning Reflection",
+        "text": "Access to technology is not the same as having an equal opportunity to benefit from it. That distinction is central to my CST 462S reflection. Race, gender, class, and location can influence who participates in digital spaces and whose needs receive attention. Examining digital inequality requires looking beyond whether a device or service is technically available.\n\nI connect critical reflection with questions about social responsibility: who might be excluded, what assumptions shape a design, and how could those assumptions be challenged? The professional relevance is a broader understanding of ethical computing. I use these questions to consider how inclusive technology development can account for different communities and how technical decisions can carry consequences beyond their immediate functional goals.",
+        "contentStatus": "student-verified"
+      }
+    ],
+    "evidenceStatus": "complete",
     "isCapstone": false
   },
   {
@@ -147,8 +211,16 @@ export const courses = [
       "Design principles",
       "Digital creativity"
     ],
-    "evidence": [],
-    "evidenceStatus": "pending",
+    "evidence": [
+      {
+        "id": "cst-328-reflection",
+        "type": "reflection",
+        "title": "Coursework & Learning Reflection",
+        "text": "Visual choices influence what people notice, understand, and feel when using digital media. My CST 328 reflection explores that connection between design aesthetics and communication. Typography can establish hierarchy, color can distinguish elements, and composition can guide attention. I see these principles as useful ways to evaluate whether a digital experience communicates its purpose clearly.\n\nI consider the reasoning behind a visual choice and how that choice relates to its intended audience. The course's connection between creativity and technology also offers a perspective on digital tools as a means of expression. For my development in computing, this encourages attention to the experience surrounding a technical function. Understanding visual design helps me discuss interface decisions more thoughtfully and recognize that presentation affects how people interpret and navigate information.",
+        "contentStatus": "student-verified"
+      }
+    ],
+    "evidenceStatus": "complete",
     "isCapstone": false
   },
   {
@@ -164,8 +236,16 @@ export const courses = [
       "Team collaboration",
       "Project management"
     ],
-    "evidence": [],
-    "evidenceStatus": "pending",
+    "evidence": [
+      {
+        "id": "cst-438-reflection",
+        "type": "reflection",
+        "title": "Coursework & Learning Reflection",
+        "text": "Maintainable software depends on decisions made throughout development, starting before implementation. For CST 438, my reflection centers on the links between requirements gathering, specification, software design, testing, and project management. Clear requirements provide a basis for deciding what to build, while testing helps assess whether the implementation behaves as intended. Changes in either area can require revisiting earlier decisions.\n\nCollaborative development adds questions about how people coordinate work and communicate expectations. My learning emphasis is the relationship between process and technical quality: planning, review, and testing help make changes more understandable. That perspective supports my professional growth by encouraging me to consider how software can remain useful and maintainable after its first implementation is finished.",
+        "contentStatus": "student-verified"
+      }
+    ],
+    "evidenceStatus": "complete",
     "isCapstone": false
   },
   {
@@ -181,8 +261,16 @@ export const courses = [
       "Malware",
       "Social engineering"
     ],
-    "evidence": [],
-    "evidenceStatus": "pending",
+    "evidence": [
+      {
+        "id": "cst-315-reflection",
+        "type": "reflection",
+        "title": "Coursework & Learning Reflection",
+        "text": "Protecting digital assets involves both technical controls and human decisions. My CST 315 reflection centers on that connection, considering how authentication establishes identity and access control limits permitted actions. Cryptography contributes methods for protecting information, but its role needs to be understood alongside vulnerabilities in systems and the ways people interact with them.\n\nMalware and social engineering illustrate different routes through which security can fail. One invites examination of malicious software behavior; the other calls attention to manipulation, trust, and judgment. The broader skill I emphasize is evaluating protection in context instead of assuming one control addresses every threat. This approach helps me connect cybersecurity fundamentals with responsible software development, where protecting data requires attention to system behavior, access decisions, and the people using the technology.",
+        "contentStatus": "student-verified"
+      }
+    ],
+    "evidenceStatus": "complete",
     "isCapstone": false
   },
   {
@@ -198,8 +286,16 @@ export const courses = [
       "Proofs",
       "Modal logic"
     ],
-    "evidence": [],
-    "evidenceStatus": "pending",
+    "evidence": [
+      {
+        "id": "cst-329-reflection",
+        "type": "reflection",
+        "title": "Coursework & Learning Reflection",
+        "text": "An argument can sound convincing while leaving an important assumption unstated. My CST 329 reflection focuses on how logic makes those assumptions and the steps between them more explicit. Propositional logic represents relationships among statements, while first-order logic adds predicates and quantifiers to express claims about objects. Translating language into logical formulas requires careful attention to what a statement actually asserts.\n\nConditional reasoning is especially relevant because a conclusion must follow from its premises, not simply resemble an expected answer. Formal proofs provide a structure for checking that connection one step at a time. I also consider the limitations of formalization when ordinary language contains ambiguity. These habits connect to computing through precise specifications and structured problem-solving, helping me separate assumptions from conclusions and explain why a proposed line of reasoning is justified.",
+        "contentStatus": "student-verified"
+      }
+    ],
+    "evidenceStatus": "complete",
     "isCapstone": false
   },
   {
@@ -215,7 +311,7 @@ export const courses = [
       "Collaboration"
     ],
     "evidence": [],
-    "evidenceStatus": "pending",
+    "evidenceStatus": "deferred",
     "isCapstone": true
   },
   {
@@ -232,7 +328,7 @@ export const courses = [
       "Presentation"
     ],
     "evidence": [],
-    "evidenceStatus": "pending",
+    "evidenceStatus": "deferred",
     "isCapstone": true
   }
 ];

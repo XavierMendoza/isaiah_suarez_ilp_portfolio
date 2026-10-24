@@ -1,30 +1,47 @@
-# ILP rubric readiness
+# ILP rubric completion audit
 
-This tracks implementation, not an awarded score. The portfolio cannot claim 25/25 without authentic evidence and instructor review.
+Final cleanup — October 24, 2026. This records implementation and the user's explicit report of student verification, not a university-awarded grade.
 
 ## Homepage — 5 possible points
 
-- [x] Isaiah Suarez name and general biography draft
-- [x] Supplied CSUMB Computer Science program description and official program link
-- [x] Four student-friendly learning themes with explanations and a disclaimer that these are not verbatim official outcomes
-- [x] Academic and professional goal drafts, clearly labeled for student review
-- [x] Clear navigation to the directory and every course
-- [ ] Student approval of biography, interests, and goals
+- [x] Isaiah Suarez's name and short biography
+- [x] CSUMB Computer Science program description and working program link
+- [x] Program Learning Outcomes section with four portfolio summaries
+- [x] Academic and professional goals
+- [x] Clear course navigation
+- [x] Public profile/goal review notes removed
+
+Learning areas remain summaries, not verbatim official university outcomes.
 
 ## Course pages — 10 possible points
 
-- [x] Exactly 14 course records with unique dedicated routes
-- [x] Official titles, unit counts, and all supplied descriptions preserved
-- [x] Topic tags grounded in descriptions
-- [x] Directory links, return link, and ordered previous/next links
-- [x] Unknown courses use the custom 404
+- [x] Exactly 14 required course records and dedicated URLs
+- [x] Correct supplied course numbers, titles, and catalog descriptions preserved
+- [x] Every course reachable from the directory
+- [x] All routes checked at desktop and mobile widths
+- [x] Unknown page and unknown course render the custom 404
 
 ## Evidence — 10 possible points
 
-- [x] Reusable evidence rendering for documents, images, source, links, and reflections
-- [x] Empty evidence shown honestly as pending, without inactive or broken evidence controls
-- [ ] Authentic qualifying evidence for CST 300, 338, 363, 334, 311, 336, 370, 462S, 328, 438, 315, and 329
-- [ ] CST 489 capstone evidence (may remain incomplete until Week 16 per supplied instructor requirements)
-- [ ] CST 499 capstone evidence (same Week 16 exception)
+- [x] All 12 non-capstone reflections approved by Isaiah, as explicitly reported by the user
+- [x] Internal course status complete and reflection status student-verified
+- [x] Every reflection exceeds 100 words (115–136), on the correct course page
+- [x] Approved factual content preserved; unfinished wording cleaned up with explicit user authorization
+- [x] Draft/review warnings removed from both reflection prose and surrounding labels
+- [x] CST 489 and CST 499 remain deferred under the Week 16 exception
+- [x] Capstone pages retain descriptions and neutral progress messaging without fictional evidence
 
-Each applicable course needs a real final project/equivalent assignment OR at least 100 words documenting what Isaiah actually accomplished. All 14 evidence arrays are currently empty; none is evidence-complete. Course listings are not claims of course completion.
+All 12 reflections are student-verified. Confirmation caveats and tentative reflection-writing language have been removed or naturally rewritten without adding personal experiences or changing technical content. [Exact sentence changes](REFLECTION_SENTENCE_CHANGES.md) records every before/after edit. Capstone progress messages remain unchanged.
+
+## Final checks
+
+- [x] Build, lint, and all four existing test groups pass
+- [x] git diff --check passes
+- [x] Desktop/mobile route checks and mobile navigation
+- [x] Narrow-screen hero clipping corrected
+- [x] Existing Vercel rewrites cover all course URLs; static-asset exclusions retained
+- [x] No commits, pushes, or deployment
+
+[Final completion report](FINAL_COMPLETION_REPORT.md) contains file changes, counts, browser results, and test limitations. Final approval and instructor evaluation remain outside this implementation audit.
+
+Latest content cleanup: build, lint, all four test groups, and git diff --check pass. Earlier browser/layout checks above describe the preceding final phase; this prose-only pass does not change layout or navigation.

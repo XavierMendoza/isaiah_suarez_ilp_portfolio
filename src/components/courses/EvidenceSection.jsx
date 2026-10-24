@@ -1,5 +1,29 @@
 // Evidence: { id, type: 'pdf'|'image'|'source'|'link'|'reflection', title, url?, text?, alt? }
-function validUrl(value) { return typeof value === 'string' && (/^https?:\/\//i.test(value) || /^\/(?!\/)/.test(value)); }
+function validUrl(value) {
+ return typeof value === 'string' && (/^https?:\/\//i.test(value) || /^\/(?!\/)/.test(value));
+}
 export default function EvidenceSection({ course }) {
- return <section className="evidence-section" aria-labelledby="evidence-heading"><h2 id="evidence-heading">Coursework &amp; Evidence</h2>{course.evidence.length === 0 ? <div className="empty-evidence"><span className="evidence-icon" aria-hidden="true">↗</span><div><h3>Coursework showcase coming soon</h3><p>{course.isCapstone ? 'Capstone materials will be added during the final phase of the program.' : 'Coursework samples and learning reflections will be added as the portfolio develops.'}</p><span className="status">Evidence pending</span></div></div> : <div className="evidence-list">{course.evidence.map(item => <article className="evidence-item" key={item.id}><span className="eyebrow">{item.type}</span><h3>{item.title}</h3>{item.type === 'image' && validUrl(item.url) && <img src={item.url} alt={item.alt || item.title} loading="lazy" />}{item.text && <p className="reflection">{item.text}</p>}{item.type !== 'reflection' && validUrl(item.url) && <a className="text-link" href={item.url} target="_blank" rel="noopener noreferrer">Open {item.title} <span aria-hidden="true">↗</span><span className="sr-only"> (new tab)</span></a>}</article>)}</div>}</section>;
+ return (
+  <section className="evidence-section" aria-labelledby="evidence-heading">
+   <h2 id="evidence-heading">Coursework &amp; Evidence</h2>
+   {course.isCapstone && course.evidence.length === 0 ? (
+    <p>Capstone work and supporting materials will be showcased as the project progresses.</p>
+   ) : (
+    <div className="evidence-list">
+     {course.evidence.map(item => (
+      <article className="evidence-item" key={item.id}>
+       <h3>{item.title}</h3>
+       {item.type === 'image' && validUrl(item.url) && <img src={item.url} alt={item.alt || item.title} loading="lazy" />}
+       {item.text && item.text.split(/\n\s*\n/).map((paragraph, index) => <p className="reflection" key={index}>{paragraph}</p>)}
+       {item.type !== 'reflection' && validUrl(item.url) && (
+        <a className="text-link" href={item.url} target="_blank" rel="noopener noreferrer">
+         Open {item.title} <span aria-hidden="true">↗</span><span className="sr-only"> (new tab)</span>
+        </a>
+       )}
+      </article>
+     ))}
+    </div>
+   )}
+  </section>
+ );
 }
