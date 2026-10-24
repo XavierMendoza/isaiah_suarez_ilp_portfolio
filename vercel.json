@@ -1,0 +1,1 @@
+{"rewrites":[{"source":"/((?!assets/|images/|documents/|favicon.svg).*)","destination":"/index.html"}]}

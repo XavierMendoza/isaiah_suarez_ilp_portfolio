@@ -1,0 +1,2 @@
+import { Link } from 'react-router-dom';
+export default function NotFound(){return <section className="container not-found"><span className="eyebrow">404 / A SMALL DETOUR</span><h1>Uncharted territory<span className="purple">.</span></h1><p>This page isn’t part of the learning journey. Let’s get you back on track.</p><div className="actions"><Link className="button primary" to="/">Back to Home →</Link><Link className="text-link" to="/courses">Explore the courses ↗</Link></div></section>;}
